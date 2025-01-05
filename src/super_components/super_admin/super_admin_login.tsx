@@ -1,6 +1,6 @@
 import React from "react";
 
-export function AdminLogin(){
+export function SuperAdminLogin(){
     return(
         <div></div>
     );

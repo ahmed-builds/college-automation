@@ -12,6 +12,7 @@ import { LogisticsLandingPage } from './modules/logistics/logisticsLandingPage';
 import { LMSLandingPage } from './modules/lms/lmsLandingPage';
 import { LibraryLandingPage } from './modules/library/libraryLandingPage';
 import { SuperAdminLogin } from './super_components/super_admin/super_admin_login';
+import { UsersLoginPage } from './super_components/users/users_login_page';
 function App() {
   return (
     <BrowserRouter>
@@ -27,6 +28,7 @@ function App() {
         <Route path='/project' element={<ProjectLandingPage/>}></Route>
         <Route path='/stores' element={<StoresLandingPage/>}></Route>
         <Route path='/super' element={<SuperAdminLogin/>}></Route>
+        <Route path='/sso' element={<UsersLoginPage />}></Route>
       </Routes>
     </BrowserRouter>
   );

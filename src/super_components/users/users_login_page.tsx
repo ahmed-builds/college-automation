@@ -1,7 +1,7 @@
 import React from "react";
 import { UsersLoginComponent } from "./login_component";
 
-export function usersLoginPage(){
+export function UsersLoginPage(){
     return(
         <div>
             <UsersLoginComponent />
